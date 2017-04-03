@@ -2,6 +2,9 @@ body {
 	background-color: gray;
 }
 
-h1, h3, p {
+h1, p {
+	color: orange;
+}
+h3 {
 	color: orange;
 }
