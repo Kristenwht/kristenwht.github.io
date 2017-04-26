@@ -1,32 +1,66 @@
 .image {
+	/*max-width: 800px;*/
 	position: relative;
 	width: 100%;
+	/*padding: 50px 50px 50px 50px;*/
+
+}
+
+#top {
+	height: 3px;
+	border: none;
+	width: 30em;
+	margin: 1em auto;
+	background-color: #3C3C3C;
+
+}
+
+#bottom {
+	height: 2px;
+	border: none;
+	width: 30em;
+	margin: 1em auto;
+	background-color: #3C3C3C;
 }
 
 h1 {
 	position: absolute;
 	width: 100%;
-	top: 300px; 
-	color: #ffffff;
-	font-size: 50px; 
+	top: 50px; 
+	color: #3C3C3C;
+	font-size: 40px; 
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 2px;
+
 }
 
 body {
   text-align: center;
-  background: url("images/wood antique_8.jpg");
+  background: url("images/site-background-hero-1920x800.jpg");
   background-size: cover;
   background-position: 20px 10px; 
   color: #222222;
   font-family: Century;
 }
 
-nav {
-	background-color: #e6e6e6;
-	font-color; #222222;
-	font-weight: 800;
 
-	
+nav {
+	background-color: #ffffff;
+	/*font-color; #222222;*/
+	color: #a2865e;
+	font-weight: 800;
+	font-size: 16px;
+	letter-spacing: 2px;	
 }
+
+hr { 
+	height: 3px;
+	border: none;
+	width: 3em;
+	margin: 1em auto;
+	background-color: #3C3C3C;
+}
+
 a {
 	padding: 20px;
 	color: inherit;
@@ -45,8 +79,8 @@ h2 {
 
 p {
   font-size: 15px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
 footer {
