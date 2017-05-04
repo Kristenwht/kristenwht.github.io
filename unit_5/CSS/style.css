@@ -3,8 +3,25 @@
 	position: relative;
 	width: 100%;
 	/*padding: 50px 50px 50px 50px;*/
-
 }
+
+.about {
+	font-family: helvetica;
+	font-size: 30px;
+	float: right;
+}
+
+.title  {
+	font-family: sans-serif;
+	text-align: left; 
+	font-size: 50px;
+}
+
+.sub {
+	font-family: sans-serif;
+	text-align: left;
+}
+
 
 #top {
 	height: 3px;
@@ -23,7 +40,14 @@
 	background-color: #3C3C3C;
 }
 
-h1 {
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+/*h1 {*/
 	position: absolute;
 	width: 100%;
 	top: 50px; 
@@ -34,9 +58,13 @@ h1 {
 
 }
 
+#large {
+	align: left;
+}
+
 body {
   text-align: center;
-  background: url("images/site-background-hero-1920x800.jpg");
+  /*background: url("images/site-background-hero-1920x800.jpg");*/
   background-size: cover;
   background-position: 20px 10px; 
   color: #222222;
@@ -45,12 +73,20 @@ body {
 
 
 nav {
-	background-color: #ffffff;
+	/*background-color: #000000;*/
 	/*font-color; #222222;*/
-	color: #a2865e;
+	/*color: #a2865e;*/
+	background-color: #E8C66A;
+	color: gray;
 	font-weight: 800;
 	font-size: 16px;
-	letter-spacing: 2px;	
+	letter-spacing: 2px;
+	padding: 40px;	
+}
+
+nav a {
+	padding: 20px;
+	margin: 20px;
 }
 
 hr { 
@@ -67,9 +103,16 @@ a {
 	text-decoration: none;
 }
 
-
 hr {
   width: 200px;
+  color: white;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+
 }
 
 h2 {
@@ -83,8 +126,23 @@ p {
   padding-right: 400px;
 }
 
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 footer {
-	background-color: #e6e6e6;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	/*background-color: #e6e6e6;*/
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+	/*padding-top: 10px;*/
+	/*padding-bottom: 10px;*/
 }
