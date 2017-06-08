@@ -399,14 +399,21 @@ footer p {
 		width: auto;
 		padding: 1em;
 	}
+
+	#intro {
+		font-size: 20px;
+		line-height: 1em;
+		width: 75%;
+	}
+
 	#right {
 		float: none;
-		width: 50%;
+		width: 75%;
 	}
 	
 	#left {
 		float: none;
-		width: 50%;
+		width: 75%;
 	}
 
 	img {
