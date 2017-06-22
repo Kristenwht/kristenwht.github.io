@@ -267,10 +267,10 @@ div {
 }
 
 footer {
-	/*background-color: #e6e6e6;*/ gray
+	background-color: #e6e6e6;
 	/*background-color: #FF957E;*/
 	/*border: 1px black solid;*/
-    background-color: transparent;
+    /*background-color: transparent;*/
     padding: 20px;
 	/*padding-top: 10px;*/
 	/*padding-bottom: 10px;*/
@@ -286,6 +286,15 @@ footer p {
 	font-size: 12px;
 	font-family: "Open-Sans", sans-serif;
 }
+
+.icon {
+	height: 60px
+	}
+
+/*footer a:hover {*/
+	color: #997F1C;
+}
+
 
 #wrapper {
 	/*width: 1080px;*/
@@ -445,7 +454,7 @@ footer p {
 
 	#email {
 		line-height: 1em;
-		padding: 0;
+		padding: 10px;
 	}
 
 	footer p {
