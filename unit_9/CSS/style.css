@@ -463,7 +463,7 @@ footer p {
 
 @media only screen and (max-width: 380px) {
 	.icon {
-		display: inline-block;
+		float: left;
 	}
 	
 }
