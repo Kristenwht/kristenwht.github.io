@@ -460,4 +460,10 @@ footer p {
 	footer p {
 		line-height: 1em;
 	}
+
+@media only screen and (max-width: 380px) {
+	.icon {
+		display: inline-block;
+	}
+	
 }
