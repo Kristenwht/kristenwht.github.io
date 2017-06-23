@@ -203,6 +203,30 @@ h3 {
 	color: #a2865e;
 }
 
+.hire {
+	font-family: "Libre-Baskerville", serif;
+	color: #474747;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+h5 {
+	font-family: "Open-Sans", sans-serif;
+	color: #a2865e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	/*background-color: #474747;*/
+}
+
+/*#button {*/
+	font-family: "Open-Sans", sans-serif;
+	color: #474747;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	background-color: #474747;
+}
+
+
 p {
   font-size: .6em;
   font-family: "Libre-Baskerville", serif;
